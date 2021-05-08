@@ -1,0 +1,124 @@
+a.tweets {
+    color: black;
+    text-decoration: none;
+}
+
+a.tweets:hover {
+    color: rgb(255, 174, 0)
+}
+
+header {
+    position: sticky;
+    top: 0;
+    border: 3px solid rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(255, 255, 153), rgb(255, 218, 185));
+    filter: grayscale(.5);
+    text-align: center;
+    z-index: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(rgb(245, 245, 220), rgb(179, 179, 253));
+    ;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: ivory;
+    padding: 5rem
+}
+
+side {
+    flex: 1;
+    overflow-y: auto
+}
+
+footer {
+    top: 0
+}
+
+a.navigation:hover {
+    color: ivory
+}
+
+img {
+    border: 5px groove rgb(255, 218, 185);
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(255, 218, 185);
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    border: 3px outset grey;
+    filter: grayscale(.3);
+}
+
+h2.index {
+    background-color: rgb(255, 218, 185);
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    border: 3px outset grey;
+    filter: grayscale(.3);
+}
+
+h3.index {
+    text-align: center;
+    padding: 1rem;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+footer {
+    text-align: center;
+}
+
+a.navigation {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(205, 205, 252);
+    filter: grayscale(.1)
+}
+
+.centered {
+    text-align: center;
+}
+
+img.chart {
+    text-align: right;
+    margin-left: 2rem;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+p.bio {
+    padding: .35rem;
+    border: 5px inset ivory;
+    margin-left: .5rem;
+    border-radius: 25px;
+    background-color: rgb(237, 237, 250);
+}
+
+h2.parrot {
+    text-align: center;
+}
